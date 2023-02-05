@@ -1,0 +1,64 @@
+*{
+	text-align: right;
+}
+body{
+	background-image: url(backgroundimage.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+h2,p{
+	color: #412F58;
+	text-align: center;
+	cursor: pointer;
+
+}
+
+
+img{
+	float: left;
+}
+
+p{
+	color: #000000;
+	line-height: 40px;
+	font-style: italic;
+	font-size: 90%;
+	font-family: 'Source Code Pro', monospace;
+}
+
+form{
+	text-align: center;
+	padding: 2px;
+	height: 200px;
+	weight: 200px;
+}
+
+footer{
+	clear: both;
+	text-align: center;
+}
+li{
+	list-style: none;
+	display: inline-block;
+}
+.first:last-child {
+	border: dashed blue;
+}
+
+#div1{
+	background-color: rgba(23, 124, 124, 0.2);
+}
+
+#div2{
+	background-color: rgba(255, 0, 0, 0.2);
+
+}
+
+.boxmodel {
+	border: 5px solid grey;
+	display: inline-block;
+	padding: 20px 50px;
+	margin: 0px 20px;
+}
+
